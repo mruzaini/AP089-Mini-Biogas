@@ -1,0 +1,160 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 272 472)
+	(text "nios_system" (rect 99 -1 150 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 456 20 468)(font "Arial" ))
+	(port
+		(pt 0 144)
+		(input)
+		(text "adc_dout" (rect 0 0 36 12)(font "Arial" (font_size 8)))
+		(text "adc_dout" (rect 4 133 52 144)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 112 144)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 229 46 240)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 112 240)(line_width 1))
+	)
+	(port
+		(pt 0 440)
+		(input)
+		(text "reset_reset" (rect 0 0 46 12)(font "Arial" (font_size 8)))
+		(text "reset_reset" (rect 4 429 70 440)(font "Arial" (font_size 8)))
+		(line (pt 0 440)(pt 112 440)(line_width 1))
+	)
+	(port
+		(pt 0 72)
+		(output)
+		(text "acid_export" (rect 0 0 46 12)(font "Arial" (font_size 8)))
+		(text "acid_export" (rect 4 61 70 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 112 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "adc_sclk" (rect 0 0 35 12)(font "Arial" (font_size 8)))
+		(text "adc_sclk" (rect 4 101 52 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 112 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(output)
+		(text "adc_cs_n" (rect 0 0 40 12)(font "Arial" (font_size 8)))
+		(text "adc_cs_n" (rect 4 117 52 128)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 112 128)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(output)
+		(text "adc_din" (rect 0 0 30 12)(font "Arial" (font_size 8)))
+		(text "adc_din" (rect 4 149 46 160)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 112 160)(line_width 1))
+	)
+	(port
+		(pt 0 200)
+		(output)
+		(text "base_export" (rect 0 0 49 12)(font "Arial" (font_size 8)))
+		(text "base_export" (rect 4 189 70 200)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 112 200)(line_width 1))
+	)
+	(port
+		(pt 0 280)
+		(output)
+		(text "esp_export[7..0]" (rect 0 0 64 12)(font "Arial" (font_size 8)))
+		(text "esp_export[7..0]" (rect 4 269 100 280)(font "Arial" (font_size 8)))
+		(line (pt 0 280)(pt 112 280)(line_width 3))
+	)
+	(port
+		(pt 0 320)
+		(output)
+		(text "esptype_export[1..0]" (rect 0 0 81 12)(font "Arial" (font_size 8)))
+		(text "esptype_export[1..0]" (rect 4 309 124 320)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 112 320)(line_width 3))
+	)
+	(port
+		(pt 0 360)
+		(output)
+		(text "heater_export" (rect 0 0 55 12)(font "Arial" (font_size 8)))
+		(text "heater_export" (rect 4 349 82 360)(font "Arial" (font_size 8)))
+		(line (pt 0 360)(pt 112 360)(line_width 1))
+	)
+	(port
+		(pt 0 400)
+		(output)
+		(text "leds_export[7..0]" (rect 0 0 66 12)(font "Arial" (font_size 8)))
+		(text "leds_export[7..0]" (rect 4 389 106 400)(font "Arial" (font_size 8)))
+		(line (pt 0 400)(pt 112 400)(line_width 3))
+	)
+	(drawing
+		(text "acid" (rect 90 43 204 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 67 270 144)(font "Arial" (color 0 0 0)))
+		(text "adc" (rect 93 83 204 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "sclk" (rect 117 107 258 224)(font "Arial" (color 0 0 0)))
+		(text "cs_n" (rect 117 123 258 256)(font "Arial" (color 0 0 0)))
+		(text "dout" (rect 117 139 258 288)(font "Arial" (color 0 0 0)))
+		(text "din" (rect 117 155 252 320)(font "Arial" (color 0 0 0)))
+		(text "base" (rect 85 171 194 355)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 195 270 400)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 97 211 212 435)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 117 235 252 480)(font "Arial" (color 0 0 0)))
+		(text "esp" (rect 92 251 202 515)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 275 270 560)(font "Arial" (color 0 0 0)))
+		(text "esptype" (rect 68 291 178 595)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 315 270 640)(font "Arial" (color 0 0 0)))
+		(text "heater" (rect 76 331 188 675)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 355 270 720)(font "Arial" (color 0 0 0)))
+		(text "leds" (rect 89 371 202 755)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 395 270 800)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 83 411 196 835)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset" (rect 117 435 264 880)(font "Arial" (color 0 0 0)))
+		(text " nios_system " (rect 214 456 506 922)(font "Arial" ))
+		(line (pt 112 32)(pt 160 32)(line_width 1))
+		(line (pt 160 32)(pt 160 456)(line_width 1))
+		(line (pt 112 456)(pt 160 456)(line_width 1))
+		(line (pt 112 32)(pt 112 456)(line_width 1))
+		(line (pt 113 52)(pt 113 76)(line_width 1))
+		(line (pt 114 52)(pt 114 76)(line_width 1))
+		(line (pt 113 92)(pt 113 164)(line_width 1))
+		(line (pt 114 92)(pt 114 164)(line_width 1))
+		(line (pt 113 180)(pt 113 204)(line_width 1))
+		(line (pt 114 180)(pt 114 204)(line_width 1))
+		(line (pt 113 220)(pt 113 244)(line_width 1))
+		(line (pt 114 220)(pt 114 244)(line_width 1))
+		(line (pt 113 260)(pt 113 284)(line_width 1))
+		(line (pt 114 260)(pt 114 284)(line_width 1))
+		(line (pt 113 300)(pt 113 324)(line_width 1))
+		(line (pt 114 300)(pt 114 324)(line_width 1))
+		(line (pt 113 340)(pt 113 364)(line_width 1))
+		(line (pt 114 340)(pt 114 364)(line_width 1))
+		(line (pt 113 380)(pt 113 404)(line_width 1))
+		(line (pt 114 380)(pt 114 404)(line_width 1))
+		(line (pt 113 420)(pt 113 444)(line_width 1))
+		(line (pt 114 420)(pt 114 444)(line_width 1))
+		(line (pt 0 0)(pt 272 0)(line_width 1))
+		(line (pt 272 0)(pt 272 472)(line_width 1))
+		(line (pt 0 472)(pt 272 472)(line_width 1))
+		(line (pt 0 0)(pt 0 472)(line_width 1))
+	)
+)

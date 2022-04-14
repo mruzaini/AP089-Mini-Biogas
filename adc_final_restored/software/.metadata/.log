@@ -1,0 +1,530 @@
+!SESSION 2022-04-02 23:27:57.224 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_MY
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/quartus-lite-18.1.0.625/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/quartus-lite-18.1.0.625/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2022-04-02 23:29:11.702
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Received fatal alert: handshake_failure. ; version: 1.100.0.v20160217-0435
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.recvAlert(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-02 23:30:22.058
+!MESSAGE Indexed 'Biogas_bsp' (75 sources, 66 headers) in 1.19 sec: 1,104 declarations; 2,098 references; 95 unresolved inclusions; 6 syntax errors; 176 unresolved names (5.2%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-02 23:30:28.566
+!MESSAGE Indexed 'Biogas' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-02 23:32:35.411
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:32:35.420
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:32:37.653
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:35:38.870
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-02 23:35:39.203
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:35:39.204
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:35:41.051
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:36:42.378
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-02 23:36:42.677
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:36:42.677
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:36:44.563
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:50:46.181
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-02 23:50:46.463
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:50:46.463
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:50:48.314
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:52:46.558
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-02 23:52:46.771
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:52:46.771
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:52:48.638
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:53:48.660
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-02 23:53:48.900
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:53:48.901
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-02 23:53:50.779
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 00:05:59.466
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 00:05:59.703
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 00:05:59.703
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 00:06:01.639
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 00:10:40.783
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 00:10:41.300
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 00:10:41.300
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 00:10:43.144
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:03:33.188
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 01:03:33.538
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:03:33.539
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:03:35.494
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:04:29.859
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 01:04:30.087
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:04:30.088
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:04:31.976
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:11:14.390
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 01:11:14.658
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:11:14.659
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:11:16.635
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:36:33.672
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 01:36:33.920
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:36:33.921
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:36:35.862
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:39:03.276
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 01:39:03.535
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:39:03.536
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:39:05.464
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:39:53.805
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 01:39:54.086
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:39:54.087
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:39:56.296
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --tcpport=auto]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:40:40.477
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 01:40:41.053
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:40:41.054
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:40:42.887
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:43:19.931
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 01:43:20.237
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:43:20.238
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 01:43:22.135
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:22:47.482
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 02:22:47.699
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:22:47.700
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:22:49.629
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:24:36.527
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 02:24:36.799
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:24:36.800
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:24:39.002
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --tcpport=auto]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:26:05.616
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 02:26:06.154
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:26:06.154
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:26:08.091
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:32:50.147
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 02:32:50.391
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:32:50.392
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:32:52.337
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:34:24.630
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 02:34:24.897
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:34:24.897
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:34:26.761
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:39:43.201
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 02:39:43.445
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:39:43.446
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:39:45.285
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:44:01.251
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 02:44:01.555
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:44:01.555
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:44:03.451
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:58:16.029
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 02:58:16.341
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:58:16.342
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:58:18.243
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:59:52.903
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 02:59:53.138
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:59:53.139
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 02:59:55.083
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:02:39.413
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:02:39.952
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:02:39.953
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:02:41.877
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:03:21.581
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:03:21.865
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:03:21.865
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:03:23.857
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:04:01.770
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:04:02.077
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:04:02.077
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:04:04.009
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:07:11.643
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:07:11.886
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:07:11.887
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:07:13.838
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:07:56.416
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:07:56.717
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:07:56.718
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:07:58.598
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:08:35.296
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:08:35.544
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:08:35.544
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:08:37.440
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:09:10.086
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:09:10.320
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:09:10.321
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:09:12.268
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:09:35.676
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:09:35.926
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:09:35.926
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:09:37.853
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:10:41.911
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:10:42.172
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:10:42.173
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:10:44.127
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:17:56.475
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:17:56.697
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:17:56.697
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:17:58.591
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:22:16.487
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:22:16.709
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:22:16.710
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:22:18.645
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:33:55.612
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 03:33:55.845
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:33:55.845
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 03:33:57.777
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 04:05:40.447
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 04:05:40.787
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 04:05:40.788
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 04:05:42.778
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 04:06:14.354
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 04:06:14.655
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 04:06:14.656
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 04:06:16.572
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 04:28:31.326
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 04:28:31.600
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 04:28:31.601
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 04:28:33.538
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --stop] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-03 04:28:33.539
+!MESSAGE Executing: [D:/quartus-lite-18.1.0.625/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 04:28:35.814
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --go, /cygdrive/c/Users/Admin/OneDrive/Desktop/USM/InnovateFPGA/Coding/adc_final_restored/software/Biogas/Biogas.elf] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-04-03 04:28:35.826
+!MESSAGE Downloading ELF Process failed

@@ -1,0 +1,696 @@
+Archive member included to satisfy reference by file (symbol)
+
+../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+                              ../Biogas_bsp//obj/HAL/src/crt0.o (alt_load)
+../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+                              ../Biogas_bsp//obj/HAL/src/crt0.o (alt_main)
+../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_main.o) (close)
+../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_main.o) (exit)
+d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                              d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (_global_impure_ptr)
+d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_close.o) (errno)
+d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                              d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o) (__register_exitproc)
+d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                              d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (__call_exitprocs)
+d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              ../Biogas_bsp/\libhal_bsp.a(alt_close.o) (__mulsi3)
+../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+                              d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+maxpH               0x4               obj/default/Biogas.o
+errno               0x4               d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+pbase               0x4               obj/default/Biogas.o
+temp                0x4               obj/default/Biogas.o
+pressure            0x4               obj/default/Biogas.o
+adc1                0x4               obj/default/Biogas.o
+pH                  0x4               obj/default/Biogas.o
+maxtemp             0x4               obj/default/Biogas.o
+minpH               0x4               obj/default/Biogas.o
+adc2                0x4               obj/default/Biogas.o
+pacid               0x4               obj/default/Biogas.o
+adc0                0x4               obj/default/Biogas.o
+mintemp             0x4               obj/default/Biogas.o
+tarpH               0x4               obj/default/Biogas.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000002000 0x0000000000000020
+onchip_memory2_0 0x0000000000002020 0x0000000000001fe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../Biogas_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/Biogas.o
+LOAD d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+START GROUP
+LOAD d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a
+LOAD d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+LOAD ../Biogas_bsp/\libhal_bsp.a
+LOAD d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+                0x0000000000002000                __alt_mem_onchip_memory2_0 = 0x2000
+
+.entry          0x0000000000002000       0x20
+ *(.entry)
+ .entry         0x0000000000002000       0x20 ../Biogas_bsp//obj/HAL/src/crt0.o
+                0x0000000000002000                __reset
+
+.exceptions     0x0000000000002020        0x0
+                0x0000000000002020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000002020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x0000000000002020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000002020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000002020      0xc94
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002020       0x3c ../Biogas_bsp//obj/HAL/src/crt0.o
+                0x0000000000002020                _start
+ .text          0x000000000000205c      0x364 obj/default/Biogas.o
+                0x000000000000205c                main
+                0x00000000000020f4                calc
+                0x0000000000002144                adcRead
+                0x00000000000021cc                pump
+                0x0000000000002284                heat
+                0x00000000000022d4                espdata
+                0x0000000000002358                delay
+ .text          0x00000000000023c0       0xec ../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000002428                alt_load
+ .text          0x00000000000024ac       0x60 ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+                0x00000000000024ac                alt_main
+ .text          0x000000000000250c       0xa0 ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000002540                alt_irq_init
+                0x0000000000002578                alt_sys_init
+ .text          0x00000000000025ac      0x114 ../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+                0x00000000000025e8                close
+ .text          0x00000000000026c0       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000000000026c0                alt_dcache_flush_all
+ .text          0x00000000000026e0       0x2c ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x000000000000270c       0xe0 ../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000002748                alt_dev_llist_insert
+ .text          0x00000000000027ec       0x60 ../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x00000000000027ec                _do_ctors
+ .text          0x000000000000284c       0x60 ../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x000000000000284c                _do_dtors
+ .text          0x00000000000028ac        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00000000000028ac       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000000028ac                alt_icache_flush_all
+ .text          0x00000000000028cc       0x84 ../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x00000000000028cc                alt_release_fd
+ .text          0x0000000000002950       0x24 ../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x0000000000002950                altera_nios2_qsys_irq_init
+ .text          0x0000000000002974        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .text.atexit   0x0000000000002974       0x14 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                0x0000000000002974                atexit
+ .text          0x0000000000002988        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .text.exit     0x0000000000002988       0x38 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                0x0000000000002988                exit
+ .text          0x00000000000029c0        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .text          0x00000000000029c0        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .text          0x00000000000029c0        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x00000000000029c0      0x118 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                0x00000000000029c0                __register_exitproc
+ .text          0x0000000000002ad8        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000002ad8      0x180 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                0x0000000000002ad8                __call_exitprocs
+ .text          0x0000000000002c58       0x28 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x0000000000002c58                __mulsi3
+ .text          0x0000000000002c80       0x34 ../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0000000000002c80                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000002cb4                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x0000000000002cb4                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x0000000000002cb4                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x0000000000002cb4                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x0000000000002cb4                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000002cb4                . = ALIGN (0x4)
+
+.rodata         0x0000000000002cb4       0x1c
+                0x0000000000002cb4                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0000000000002cb4                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000002cb4        0x9 ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x0000000000002cbd        0x3 
+ .rodata        0x0000000000002cc0        0xa ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+ *fill*         0x0000000000002cca        0x2 
+ .rodata.str1.4
+                0x0000000000002ccc        0x4 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                                          0x2 (size before relaxing)
+ *(.rodata1)
+                0x0000000000002cd0                . = ALIGN (0x4)
+                0x0000000000002cd0                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0000000000002cb4                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x0000000000002cd0      0x634 load address 0x0000000000003304
+                0x0000000000002cd0                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000000000002cd0                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000002cd0        0x0 ../Biogas_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000000002cd0        0x0 obj/default/Biogas.o
+ .data          0x0000000000002cd0        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x0000000000002cd0        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x0000000000002cd0       0x2c ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000002cfc        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x0000000000002cfc        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000002cfc      0x1a8 ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000002cfc                alt_dev_null
+                0x0000000000002d24                alt_fd_list
+ .data          0x0000000000002ea4        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0000000000002ea4        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x0000000000002ea4        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x0000000000002ea4        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x0000000000002ea4        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000002ea4        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x0000000000002ea4        0x0 ../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x0000000000002ea4        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .data          0x0000000000002ea4        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .data          0x0000000000002ea4        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000002ea4      0x424 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .data          0x00000000000032c8        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .data          0x00000000000032c8        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .data          0x00000000000032c8        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000000032c8        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x00000000000032c8        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000000000000b2c8                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x00000000000032c8       0x1c obj/default/Biogas.o
+                0x00000000000032c8                adc
+                0x00000000000032cc                led
+                0x00000000000032d0                esp
+                0x00000000000032d4                heater
+                0x00000000000032d8                acid
+                0x00000000000032dc                base
+                0x00000000000032e0                esptype
+ .sdata         0x00000000000032e4       0x14 ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00000000000032e4                alt_fs_list
+                0x00000000000032ec                alt_dev_list
+                0x00000000000032f4                alt_max_fd
+ .sdata         0x00000000000032f8        0x4 ../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+                0x00000000000032f8                alt_errno
+ .sdata._global_impure_ptr
+                0x00000000000032fc        0x4 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                0x00000000000032fc                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000003300        0x4 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                0x0000000000003300                _impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000003304                . = ALIGN (0x4)
+                0x0000000000003304                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000000003304                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000003304                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000000000003938       0x44
+                0x0000000000003938                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000003938       0x34 obj/default/Biogas.o
+                0x0000000000003938                maxpH
+                0x000000000000393c                pbase
+                0x0000000000003940                temp
+                0x0000000000003944                pressure
+                0x0000000000003948                adc1
+                0x000000000000394c                pH
+                0x0000000000003950                maxtemp
+                0x0000000000003954                minpH
+                0x0000000000003958                adc2
+                0x000000000000395c                pacid
+                0x0000000000003960                adc0
+                0x0000000000003964                mintemp
+                0x0000000000003968                tarpH
+ .sbss          0x000000000000396c        0xc ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000000396c                alt_argc
+                0x0000000000003970                alt_argv
+                0x0000000000003974                alt_envp
+ .sbss          0x0000000000003978        0x4 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                0x0000000000003978                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp//obj/HAL/src/crt0.o
+ .bss           0x000000000000397c        0x0 obj/default/Biogas.o
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x000000000000397c        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .bss           0x000000000000397c        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .bss           0x000000000000397c        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .bss           0x000000000000397c        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .bss           0x000000000000397c        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .bss           0x000000000000397c        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .bss           0x000000000000397c        0x0 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x000000000000397c        0x0 ../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+                0x000000000000397c                . = ALIGN (0x4)
+                0x000000000000397c                __bss_end = ABSOLUTE (.)
+
+.onchip_memory2_0
+                0x000000000000397c        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_start, ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x000000000000397c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_end, ABSOLUTE (.))
+                0x000000000000397c                _end = ABSOLUTE (.)
+                0x000000000000397c                end = ABSOLUTE (.)
+                0x000000000000397c                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_load_addr, LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/Biogas.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x0000000000000023       0x24 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000023       0x24 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .comment       0x0000000000000023       0x24 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000023       0x24 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000023       0x24 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000023       0x24 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x0000000000000023       0x24 ../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x2d0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../Biogas_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/Biogas.o
+ .debug_aranges
+                0x0000000000000048       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000068       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000088       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000108       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000128       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x0000000000000148       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x0000000000000168       0x18 ../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000180       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000000000001c0       0x20 ../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x00000000000001e0       0x20 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000200       0x20 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000220       0x18 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000238       0x18 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000250       0x20 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000000270       0x20 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000290       0x20 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x00000000000002b0       0x20 ../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x403a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x93 ../Biogas_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000093      0x242 obj/default/Biogas.o
+ .debug_info    0x00000000000002d5      0x145 ../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x000000000000041a      0x157 ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000000571      0x3bb ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x000000000000092c      0x321 ../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x0000000000000c4d       0x92 ../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000000cdf      0x49c ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x000000000000117b      0x1a9 ../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000000000001324       0x83 ../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x00000000000013a7       0x83 ../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x000000000000142a       0xa6 ../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00000000000014d0       0x92 ../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000001562      0x2b0 ../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x0000000000001812       0xb8 ../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x00000000000018ca       0xfe d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_info    0x00000000000019c8      0x8e4 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_info    0x00000000000022ac      0x8a1 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_info    0x0000000000002b4d       0x8a d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000002bd7      0x934 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_info    0x000000000000350b      0x965 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000003e70       0xb4 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x0000000000003f24      0x116 ../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x138e
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../Biogas_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0xc4 obj/default/Biogas.o
+ .debug_abbrev  0x00000000000000d6       0x9f ../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000175       0xc1 ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000236      0x157 ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000000000000038d      0x11f ../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x00000000000004ac       0x42 ../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000000000004ee       0xd9 ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00000000000005c7      0x114 ../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x00000000000006db       0x79 ../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x0000000000000754       0x79 ../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x00000000000007cd       0x5a ../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000000827       0x42 ../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000000869       0xde ../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x0000000000000947       0x67 ../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x00000000000009ae       0xaa d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000000a58      0x1e5 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000000c3d      0x18f d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000dcc       0x37 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000000e03      0x21e d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000001021      0x22e d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x000000000000124f       0x6f d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x00000000000012be       0xd0 ../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x13fd
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x66 ../Biogas_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000066       0xe9 obj/default/Biogas.o
+ .debug_line    0x000000000000014f       0x8e ../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000000000001dd       0xcd ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x00000000000002aa      0x117 ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000000000003c1      0x169 ../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x000000000000052a       0x51 ../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x000000000000057b       0xfc ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000000677       0xcf ../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000000746       0x59 ../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x000000000000079f       0x59 ../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x00000000000007f8       0x51 ../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000000849       0x4f ../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000000898       0xb0 ../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000000948       0x8d ../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x00000000000009d5       0xe7 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_line    0x0000000000000abc      0x1fc d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_line    0x0000000000000cb8      0x160 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_line    0x0000000000000e18       0x5f d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000000e77      0x21f d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000001096      0x23a d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x00000000000012d0       0x80 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x0000000000001350       0xad ../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000      0x574
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x108 obj/default/Biogas.o
+ .debug_frame   0x0000000000000108       0x5c ../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000164       0x2c ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000190       0x88 ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000218       0x60 ../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x0000000000000278       0x34 ../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000000000002ac       0x34 ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000000000002e0       0x60 ../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000000000000340       0x38 ../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x0000000000000378       0x38 ../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x00000000000003b0       0x34 ../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000000000003e4       0x3c ../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000000420       0x34 ../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x0000000000000454       0x20 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000474       0x28 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_frame   0x000000000000049c       0x38 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000000000004d4       0x54 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000528       0x20 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x0000000000000548       0x2c ../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000      0xff9
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x136 obj/default/Biogas.o
+                                        0x14a (size before relaxing)
+ .debug_str     0x0000000000000136      0x1b5 ../Biogas_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x237 (size before relaxing)
+ .debug_str     0x00000000000002eb       0x91 ../Biogas_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x1eb (size before relaxing)
+ .debug_str     0x000000000000037c       0xde ../Biogas_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x29f (size before relaxing)
+ .debug_str     0x000000000000045a       0x44 ../Biogas_bsp/\libhal_bsp.a(alt_close.o)
+                                        0x230 (size before relaxing)
+ .debug_str     0x000000000000049e       0x34 ../Biogas_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x17a (size before relaxing)
+ .debug_str     0x00000000000004d2      0x120 ../Biogas_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x32a (size before relaxing)
+ .debug_str     0x00000000000005f2       0x4b ../Biogas_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1f1 (size before relaxing)
+ .debug_str     0x000000000000063d       0x48 ../Biogas_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                         0xf5 (size before relaxing)
+ .debug_str     0x0000000000000685       0x4c ../Biogas_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                         0xf4 (size before relaxing)
+ .debug_str     0x00000000000006d1       0x14 ../Biogas_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x16a (size before relaxing)
+ .debug_str     0x00000000000006e5       0x34 ../Biogas_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x17a (size before relaxing)
+ .debug_str     0x0000000000000719       0x28 ../Biogas_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                        0x1f8 (size before relaxing)
+ .debug_str     0x0000000000000741       0x3b ../Biogas_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                                        0x1aa (size before relaxing)
+ .debug_str     0x000000000000077c      0x17c d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                                        0x221 (size before relaxing)
+ .debug_str     0x00000000000008f8      0x3d6 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                                        0x5be (size before relaxing)
+ .debug_str     0x0000000000000cce       0xd6 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                                        0x5b5 (size before relaxing)
+ .debug_str     0x0000000000000da4       0x3f d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x0000000000000de3       0x3f d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                                        0x5f6 (size before relaxing)
+ .debug_str     0x0000000000000e22       0x65 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                                        0x5e2 (size before relaxing)
+ .debug_str     0x0000000000000e87      0x148 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                        0x193 (size before relaxing)
+ .debug_str     0x0000000000000fcf       0x2a ../Biogas_bsp/\libhal_bsp.a(alt_exit.o)
+                                        0x19f (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x430
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x2c d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_loc     0x000000000000002c       0x1e d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_loc     0x000000000000004a      0x185 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x00000000000001cf      0x1ce d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x000000000000039d       0x93 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x10 ../Biogas_bsp//obj/HAL/src/crt0.o
+                0x0000000000004000                __alt_data_end = 0x4000
+                0x0000000000004000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x4000)
+OUTPUT(Biogas.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000       0x80
+ .debug_ranges  0x0000000000000000       0x20 ../Biogas_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x10 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_ranges  0x0000000000000030       0x10 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_ranges  0x0000000000000040       0x10 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_ranges  0x0000000000000050       0x30 d:/quartus-lite-18.1.0.625/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)

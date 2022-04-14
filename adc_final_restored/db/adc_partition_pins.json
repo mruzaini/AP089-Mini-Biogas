@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ADC_SCK",
+					"strict" : false
+				},
+				{
+					"name" : "ADC_CONVST",
+					"strict" : false
+				},
+				{
+					"name" : "ADC_SDI",
+					"strict" : false
+				},
+				{
+					"name" : "ESP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ESP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ESP[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ESP[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ESP[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ESP[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ESP[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ESP[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HEATER",
+					"strict" : false
+				},
+				{
+					"name" : "ACID",
+					"strict" : false
+				},
+				{
+					"name" : "BASE",
+					"strict" : false
+				},
+				{
+					"name" : "ESPTYPE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ESPTYPE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADC_SDO",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

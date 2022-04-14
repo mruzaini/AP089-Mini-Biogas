@@ -1,0 +1,17 @@
+	component nios_system is
+		port (
+			acid_export    : out std_logic;                           -- export
+			adc_sclk       : out std_logic;                           -- sclk
+			adc_cs_n       : out std_logic;                           -- cs_n
+			adc_dout       : in  std_logic                    := 'X'; -- dout
+			adc_din        : out std_logic;                           -- din
+			base_export    : out std_logic;                           -- export
+			clk_clk        : in  std_logic                    := 'X'; -- clk
+			esp_export     : out std_logic_vector(7 downto 0);        -- export
+			esptype_export : out std_logic_vector(1 downto 0);        -- export
+			heater_export  : out std_logic;                           -- export
+			leds_export    : out std_logic_vector(7 downto 0);        -- export
+			reset_reset    : in  std_logic                    := 'X'  -- reset
+		);
+	end component nios_system;
+

@@ -1,0 +1,29 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios_system.ADC -pg 1 -lvl 3 -y 30
+preplace inst nios_system.esp -pg 1 -lvl 3 -y 510
+preplace inst nios_system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios_system.clk_0.sys_pll -pg 1
+preplace inst nios_system.onchip_memory2_0 -pg 1 -lvl 3 -y 430
+preplace inst nios_system.clk_0.reset_from_locked -pg 1
+preplace inst nios_system.acid -pg 1 -lvl 3 -y 130
+preplace inst nios_system.LEDs -pg 1 -lvl 3 -y 330
+preplace inst nios_system.heater -pg 1 -lvl 3 -y 710
+preplace inst nios_system.cpu -pg 1 -lvl 2 -y 590
+preplace inst nios_system.esptype -pg 1 -lvl 3 -y 610
+preplace inst nios_system.base -pg 1 -lvl 3 -y 230
+preplace inst nios_system.clk_0 -pg 1 -lvl 1 -y 660
+preplace netloc EXPORT<net_container>nios_system</net_container>(SLAVE)nios_system.acid,(SLAVE)acid.external_connection) 1 0 3 NJ 160 NJ 160 NJ
+preplace netloc EXPORT<net_container>nios_system</net_container>(SLAVE)nios_system.reset,(SLAVE)clk_0.ref_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios_system</net_container>(SLAVE)esp.external_connection,(SLAVE)nios_system.esp) 1 0 3 NJ 540 NJ 540 NJ
+preplace netloc EXPORT<net_container>nios_system</net_container>(SLAVE)clk_0.ref_clk,(SLAVE)nios_system.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>nios_system</net_container>(SLAVE)acid.clk,(MASTER)clk_0.sys_clk,(SLAVE)cpu.clk,(SLAVE)base.clk,(SLAVE)esptype.clk,(SLAVE)LEDs.clk,(SLAVE)ADC.clk,(SLAVE)heater.clk,(SLAVE)esp.clk,(SLAVE)onchip_memory2_0.clk1) 1 1 2 310 720 600
+preplace netloc EXPORT<net_container>nios_system</net_container>(SLAVE)nios_system.heater,(SLAVE)heater.external_connection) 1 0 3 NJ 740 NJ 740 NJ
+preplace netloc FAN_OUT<net_container>nios_system</net_container>(SLAVE)heater.reset,(SLAVE)esptype.reset,(SLAVE)cpu.reset_n,(SLAVE)LEDs.reset,(SLAVE)acid.reset,(SLAVE)esp.reset,(SLAVE)base.reset,(SLAVE)onchip_memory2_0.reset1,(SLAVE)ADC.reset,(MASTER)clk_0.reset_source) 1 1 2 330 760 660
+preplace netloc EXPORT<net_container>nios_system</net_container>(SLAVE)nios_system.leds,(SLAVE)LEDs.external_connection) 1 0 3 NJ 360 NJ 360 NJ
+preplace netloc EXPORT<net_container>nios_system</net_container>(SLAVE)base.external_connection,(SLAVE)nios_system.base) 1 0 3 NJ 260 NJ 260 NJ
+preplace netloc EXPORT<net_container>nios_system</net_container>(SLAVE)ADC.external_interface,(SLAVE)nios_system.adc) 1 0 3 NJ 80 NJ 80 NJ
+preplace netloc INTERCONNECT<net_container>nios_system</net_container>(SLAVE)esptype.s1,(SLAVE)cpu.jtag_debug_module,(SLAVE)ADC.adc_slave,(SLAVE)acid.s1,(SLAVE)onchip_memory2_0.s1,(SLAVE)heater.s1,(SLAVE)base.s1,(MASTER)cpu.data_master,(MASTER)cpu.instruction_master,(SLAVE)esp.s1,(SLAVE)LEDs.s1) 1 1 2 350 780 640
+preplace netloc EXPORT<net_container>nios_system</net_container>(SLAVE)esptype.external_connection,(SLAVE)nios_system.esptype) 1 0 3 NJ 580 NJ 580 NJ
+levelinfo -pg 1 0 60 870
+levelinfo -hier nios_system 70 150 380 710 860
