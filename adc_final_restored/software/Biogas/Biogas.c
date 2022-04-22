@@ -1,5 +1,3 @@
-//#include "altera_up_avalon_adc.h"
-
 #define ESP_ADDR 0x5060
 #define ADC_ADDR 0x5000
 #define HEATER_ADDR 0x5050
@@ -42,11 +40,11 @@ void espdata();
 void main()
 {
 	//Assign initial values
-	maxpH=95; //7.4
-	minpH=101; //6.8
-	tarpH=98; //7.1
-	maxtemp=92; //60
-	mintemp=66; //50
+	maxpH=96; //7.4
+	minpH=102; //6.8
+	tarpH=99; //7.1
+	maxtemp=12; //60
+	mintemp=88; //50
 	pacid=0;
 	pbase=0;
 	while(1)
@@ -57,7 +55,7 @@ void main()
 		calc();
 		espdata();
 		pump();
-		delay(100);
+		delay(40);
 		*(base)=0;
 		*(acid)=0;
 		heat();
@@ -70,7 +68,7 @@ void calc()
 {
 	pH = adc0/16;
 	//temp=adc1/16;
-	temp=adc1;
+	temp=adc1/16;
 	pressure=adc2/16;
 }
 
@@ -118,11 +116,11 @@ void pump()
 
 void heat()
 {
-	if(temp < mintemp)
+	if(temp > mintemp)
 	{
 		*(heater)=1;
 	}
-	else if (temp > maxtemp)
+	else if (temp < maxtemp)
 	{
 		*(heater)=0;
 	}
