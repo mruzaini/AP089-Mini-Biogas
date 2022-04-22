@@ -1,6 +1,3 @@
-//This source code is to transfer the data from the FPGA to the Azure Cloud. 
-//The SSID, the Wi-FI password and the Connection String Link is change for privacy reasons.
-
 #include <WiFi.h>
 #include "DHT.h"
 #include "AzureIotHub.h"
@@ -18,12 +15,12 @@ int binary();
 void tayang();
 
 
-const char* ssid     = "ssid"; // Name of your Wi-Fi Network.
-const char* password = "password"; // WiFi Password
+const char* ssid     = "Insignes 2.4GHz"; // Name of your Wi-Fi Network.
+const char* password = "pra-uusm"; // WiFi Password
 
 int messageCount = 1;
 
-static const char* connectionString = "Connection String Link from Azure";
+static const char* connectionString = "HostName=InnovateFPGA-IoTHub-AP089biogas.azure-devices.net;DeviceId=ESP32SensorMonitoring;SharedAccessKey=zD6BR7x8fRGz9fZe/xcxNeidOs9NzIEpw62ytjjBU1Q=";
 
 const char *messageData = "{\"deviceId\":\"%s\", \"messageId\":%d, \"pH\":%f, \"temp\":%f, \"pressure\":%f}"; 
 
@@ -34,28 +31,28 @@ static uint64_t send_interval_ms;
 
 static void InitWifi()
 {
-  Serial.println("Connecting...");
+  //Serial.println("Connecting...");
 
   WiFi.begin(ssid, password);
   
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
-    Serial.print(".");
+    //Serial.print(".");
   }
   
   hasWifi = true;
   
-  Serial.println("WiFi connected");
+  //Serial.println("WiFi connected");
   
-  Serial.println("IP address: ");
-  Serial.println(WiFi.localIP());
+  //Serial.println("IP address: ");
+  //Serial.println(WiFi.localIP());
 }
 
 static void SendConfirmationCallback(IOTHUB_CLIENT_CONFIRMATION_RESULT result)
 {
   if (result == IOTHUB_CLIENT_CONFIRMATION_OK)
   {
-    Serial.println("Send Confirmation Callback finished.");
+    //Serial.println("Send Confirmation Callback finished.");
   }
 }
 
@@ -74,12 +71,12 @@ void setup()
     pinMode(35,INPUT);
     pinMode(34,INPUT);
     
-  Serial.begin(115200);
-  Serial.println("ESP32 Device");
-  Serial.println("Initializing...");
+  //Serial.begin(115200);
+  //Serial.println("ESP32 Device");
+  //Serial.println("Initializing...");
 
   //Initialize the WiFi module
-  Serial.println(" > WiFi");
+  //Serial.println(" > WiFi");
   hasWifi = false;
   InitWifi();
   
@@ -87,7 +84,7 @@ void setup()
   {
     return;
   }
-  Serial.println(" > IoT Hub");
+  //Serial.println(" > IoT Hub");
     
   Esp32MQTTClient_Init((const uint8_t*)connectionString);
   Esp32MQTTClient_SetSendConfirmationCallback(SendConfirmationCallback);
@@ -106,19 +103,19 @@ void loop()
     {
       
       char messagePayload[MESSAGE_MAX_LEN];
-       while(digitalRead(35)==0&&digitalRead(34)==0);
+      while(digitalRead(35)==0&&digitalRead(34)==0);
        while(digitalRead(35)==1&&digitalRead(34)==0);
        while(digitalRead(35)==0&&digitalRead(34)==1);
-       pH = -0.0952 * binary() + 16.4252;
+       pH = -0.0938 * binary() + 16.4688;
        while(digitalRead(35)==0&&digitalRead(34)==0);
-       temp=binary();
+       temp=-0.1313*binary()+61.5760;
        while(digitalRead(35)==1&&digitalRead(34)==0);
-       pressure=0.7692*binary()-26.5385;
-       tayang();
+       pressure=0.7692*binary()-23.8485;
+       //tayang();
       
-      Serial.println("\n ");
+      //Serial.println("\n ");
       snprintf(messagePayload,MESSAGE_MAX_LEN,messageData, DEVICE_ID, messageCount++, pH,temp, pressure);
-      Serial.println(messagePayload);
+      //Serial.println(messagePayload);
       
       EVENT_INSTANCE* message = Esp32MQTTClient_Event_Generate(messagePayload, MESSAGE);
       Esp32MQTTClient_SendEventInstance(message);
